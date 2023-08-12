@@ -1,0 +1,57 @@
+.color1{
+color: rgb(25, 25, 132);
+border-color:  rgb(25, 25, 132);
+}
+.bgcolor{
+    background-color:rgb(25, 25, 132) ;
+}
+.magr{
+    margin-right: 700px;
+}
+body{
+    background-image: url('images/image.jpg');
+    }
+    .small1{
+        font-size:13px ;
+        text-decoration: none;
+    }
+    .a1{
+        text-decoration:none;
+        color:blueviolet
+    }
+    
+ 
+    .fonta{
+        color: white;
+        animation-name:fonta;
+        animation-name:fonta;
+        animation-duration:7s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;  
+    }
+    
+    @keyframes fonta{
+        0%{
+            color:rgb(202, 196, 17) ;
+        }
+        25%{
+            color: rgb(78, 19, 255);
+        }
+        50%{
+            color: rgb(202, 196, 17);
+            
+        }
+    
+        75%{
+            color: rgb(78, 19, 255);
+            
+        }
+    
+        100%{
+            color: rgb(224, 255, 19);
+            
+        }
+    }
+    
+    
+    

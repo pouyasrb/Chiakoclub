@@ -1,0 +1,78 @@
+body{
+    background-image: url('images/image.jpg');
+    }
+    .small1{
+        font-size:13px ;
+        text-decoration: none;
+    }
+    .a1{
+        text-decoration:none;
+        color:blueviolet
+    }
+    
+    .divall{
+        margin:80px;height:500px;border-radius:35px;border:solid 3px rgb(26, 14, 129);
+        animation-name:divall;
+        animation-duration:7s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes divall{
+        0%{
+            border-color:rgb(202, 196, 17) ;
+        }
+        25%{
+            border-color: rgb(19, 45, 136);
+        }
+        50%{
+            border-color: rgb(0, 0, 0);
+            
+        }
+    
+        75%{
+            border-color: rgb(78, 19, 255);
+            
+        }
+    
+        100%{
+            border-color: rgb(224, 255, 19);
+            
+        }
+    }
+    .fonta{
+        color: white;
+        animation-name:fonta;
+        animation-name:divall;
+        animation-duration:7s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;  
+    }
+    
+    @keyframes fonta{
+        0%{
+            color:rgb(202, 196, 17) ;
+        }
+        25%{
+            color: rgb(19, 45, 136);
+        }
+        50%{
+            color: rgb(255, 255, 255);
+            
+        }
+    
+        75%{
+            color: rgb(78, 19, 255);
+            
+        }
+    
+        100%{
+            color: rgb(224, 255, 19);
+            
+        }
+    }
+    
+    
+    
+
+
+
